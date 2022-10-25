@@ -1,0 +1,362 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(226, 220, 222);
+}
+
+header{
+    width: 100vw;
+    height: 12vh;
+    background-color: rgb(45, 45, 52);
+    display: flex;
+}
+
+.contenedorDeLogo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    width: 50%;
+    height: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.a-nav{
+    text-decoration: none;
+    color: black;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(196, 146, 154);
+    justify-content: center;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.a-actual{
+    text-decoration: none;
+    color: black;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(206, 177, 190);
+    justify-content: center;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+
+.article{
+    width: 100vw;
+    height: 14vh;
+    background-color: rgb(150, 98, 101);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flecha{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    width: 100vw;
+    min-height: 64vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.eventos{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.checkbox{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+.form1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items:flex-start;
+    padding: 5px;
+}
+
+.input-form{
+    width: 100%;
+    height: 65%;
+    border: solid rgb(206, 177, 190) 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+
+.card{
+    border: rgb(206, 177, 190) solid 2px !important;
+}
+
+.card-img{
+    height: 40%;
+}
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(98, 72, 77);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linksDelFooter{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5%;
+}
+
+.cohort{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 4%;
+}
+
+.cardContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+.cardsHome{
+    width: 25vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid 2px rgb(80, 63, 69);
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imgcardsHome{
+    width: 90%;
+    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+.buy{
+    width: 7vh;
+    height: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+.checkbox{
+    gap: 6px;
+}
+
+/* Carta de details */
+
+.mainDetails{
+    width: 100vw;
+    height: 78vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seccion-main{
+    width: 60%;
+    height: 90%;
+    border: solid 2px rgb(80, 63, 69);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    
+}
+
+.texto-main{
+    width: 35%;
+    height: 95%;
+    border: solid 2px rgb(80, 63, 69);
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.imagen-main{
+    width: 40%;
+    height: 50%;
+    border: solid 2px rgb(80, 63, 69);
+    border-radius: 6px;
+}
+
+.imagen-main img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+/* Conatact */
+
+.form-contact{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-wrap:wrap;
+    background-color: aqua;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.cajaDeDatos{
+    width: 90%;
+    height: 90%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* pagina de stats */
+
+.containerTable{
+    border: solid 2px rgb(80, 63, 69);
+}
+.containerTitle {
+    border: solid 2px rgb(80, 63, 69);
+}
+
+@media screen and (max-width: 730px) {
+    .seccion-main{
+        width: 95%;
+    }
+    .texto-main{
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .form {
+       width: 0%;
+       height: 0%;
+    }
+    .checkbox{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 475px) {
+    .contenedorDeLogo{
+        width: 0%;
+        height: 0%;
+    }
+    .logo{
+        width: 0%;
+        height: 0%;
+    }
+    .nav{
+        width: 100%;
+    }
+    .article{
+        height: 7vh;
+    }
+    .eventos{
+        height: 15vh;
+    }
+}
+@media screen and (max-width: 402px) {
+    .eventos{
+        height: 33vh;
+    }
+    .checkbox{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .seccion-main{
+        width: 95%;
+        height: 90%;
+        justify-content: center
+    }
+    .texto-main{
+        width: 90%;
+    }
+    .imagen-main{
+        width: 0vh;
+        height: 0vh;
+        border: none;
+    }
+
+    .imagen-main img{
+        width: 0vh;
+        height: 0vh;
+    }
+}
